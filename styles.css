@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgba(0,0,0, 0.5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 40vh;
+}
+
+.error {
+    margin-top: 10px;
+    color: red;
+    font-size:larger;
+    font-weight: 800;
+    display: none;
+}
+
+.searching_place {
+    display: flex;
+}
+
+.enter_location {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.search_btn {
+    background-color: rgb(96, 96, 96);
+    color: white;
+    padding: 7px 9px; 
+    border-radius: 5px;
+}
+
+.weather_responce {
+    margin-top: 10px;
+    display: none;
+}
+
+.city {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.degree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
